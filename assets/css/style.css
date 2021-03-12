@@ -159,6 +159,7 @@ font-weight: bold;
   color:white
 }
 .job-profile-section>div{
+  border-bottom: 2px solid #b9b9b9;
   display: flex;
   justify-content: space-between;
 
@@ -278,6 +279,55 @@ display: inline-block;
 }
 .referral-applicants-icons>i{
   font-size: 48px;
+}
+
+.connect-insider-title{
+  margin-top: 61px;
+  margin-bottom: 62px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #6069ce;
+}
+.insiders-info-item>figure>img{
+  width: auto;
+}
+.insider-name{
+  margin-top: 23px;
+  margin-bottom: 15px;
+  font-size: 33px;
+  color: #44c79d;
+}
+.insider-profile{
+  margin-bottom: 23px;
+  font-size: 24px;
+  color: #727272;
+}
+.fa-star ,
+.fa-star-o
+{
+  font-size: 27px;
+  color: #6169cf;
+}
+.insider-responce-time{
+  margin-top: 23px;
+  font-size: 20px;
+  color:#a2a2a2;
+}
+.insiders-info{
+  margin-left: 5.46%;
+  margin-right: 9.28%;
+  display: flex;
+  justify-content: space-between;
+}
+.insiders-info-item{
+  flex-basis: 17.85%;
+}
+.insider-section>div{
+  border-bottom: 2px solid #b9b9b9;
+}
+.insiders-info-item:nth-of-type(2)
+{
+    margin-bottom: 66px;
 }
 /*=================================
   main styling ends here
