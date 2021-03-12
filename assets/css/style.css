@@ -156,7 +156,8 @@ font-weight: bold;
   font-size: 38px;
   text-transform: uppercase;
   background-color: #44c79d;
-  color:white
+  color:white;
+  letter-spacing: -2px;
 }
 .job-profile-section>div{
   border-bottom: 2px solid #b9b9b9;
@@ -183,7 +184,8 @@ font-weight: bold;
   margin-bottom: 111px;
   margin-left: 118px;
   margin-right: 126px; */
-  margin:111px 126px 111px 118px;
+  /* margin:111px 126px 111px 118px; */
+  margin: 18.14% 20.82% 18.14% 19.5%;
   
 }
 .referral-slider-dots{
@@ -340,6 +342,7 @@ display: inline-block;
 .how-we-work{
   margin-left: 5.34%;
   margin-right: 9.1%;
+  margin-bottom: 66px;
   display: flex;
   justify-content: space-between;
 }
@@ -362,6 +365,48 @@ display: inline-block;
   font-size: 29px;
   color: #a2a2a2;
 }
+.testimonials-section{
+  background-color: #6069d0;
+}
+.testimonials-inner{
+  width: 100%;
+  position: relative;
+}
+.testimonials-inner > a{
+  font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 16px;
+    color: white;
+   }
+   .testimonials-inner >a :last-child{
+    right: 0;
+   }
+   .testimonials-inner > h2{
+    padding-top: 55px;
+    margin-bottom: 51px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fffffe;
+   }
+   .testimonials-item > p{
+    font-size: 27px;
+   }
+   .testimonials-item > p{
+     color:#f8fbfd;
+     text-align: center;
+    width: 85.16%;
+    margin: 0 auto;
+   }
+   .testimonials-item:not(:first-of-type){
+     display: none;
+   }
+   .current-testimonial{
+    margin-top: 47px;
+    padding-bottom: 67px;
+    text-align: center;
+   }
 /*=================================
   main styling ends here
 =================================*/
@@ -382,8 +427,55 @@ display: inline-block;
 
 /*media query starts*/
 /*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
+@media only screen and (max-width: 1024px) {
+h2{
+  font-size: 38px;
+}
+p{
+  font-size: 25px;
+}
+.apply-btn, .connect-btn {
+  padding: 13px 14px;
+  font-size: 19px;
+  letter-spacing: -2px;
+}
+.hr-slider-item p {
+  font-size: 29px;
+  /* line-height: 50px; */
+}
+.insider-name {
+font-size: 22px;
+}
+.insiders-info-item>figure>img {
+  width: 70%;
+}
+.insiders-info-item {
+  flex-basis: 46.85%;
+}
+.how-we-work-item > p {
+  font-size: 18px;
+  color: #a2a2a2;
+}
+.how-we-work-item > h4 {
+  margin-top: 20px;
+  font-size: 27px;
+  color: #747474;
+  margin-bottom: 20px;
+}
 
-
-
+.insider-profile {
+  margin-bottom: 7px;
+  font-size: 19px;
+  color: #727272;
+}
+.insider-responce-time {
+  width: 80%;
+}
+.fa-search, .fa-calendar, .fa-comments {
+  font-size: 71px;
+}
+.dot {
+  height: 10px;
+  width: 10px;
+}
 }  
