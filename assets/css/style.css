@@ -106,7 +106,13 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
-
+header>div>h1{
+  margin-top: 35px;
+  margin-bottom: 37px;
+}
+header{
+  border-bottom: 2px solid #b9b9b9;
+}
 
 
 
@@ -119,14 +125,160 @@ li {
 /*=================================
   main styling starts here
 =================================*/
+.job-profile-name{
+  margin-top: 58px;
+/* margin-top: 72px; */
+font-weight: bold;
+    font-size: 47px;
+    color:#6069ce;
+}
+.job-location{
+  margin-top: 13px;
+  font-size: 34px;    
+  color:#6069ce;
+}
+.job-review{
+  margin-top: 40px;
+  font-size: 36px;
+  color:#6069ce;
+}
+.job-desc{
+  margin-top: 27px;
+  font-size: 29px;
+  color:#6069ce;
+}
+.job-desc>a{
+  color:#52bd97;
+}
+.apply-btn,
+.connect-btn{
+  padding: 26px 28px;
+  font-size: 38px;
+  text-transform: uppercase;
+  background-color: #44c79d;
+  color:white
+}
+.job-profile-section>div{
+  display: flex;
+  justify-content: space-between;
 
+}
+.job-profile-left{
+  flex-basis:64.55%;
+  display: inline-block;
+/* margin-right: 2.52%; */
+}
+.job-profile-left >a:first-of-type{
+  margin-top: 48px;
+}
+.job-profile-right{
+  flex-basis: 32.93%;
+  display: inline-block;
+  background-color: #6069d0;
+  position: relative;
+}
+.referrals-info{
+  /* margin-top: 111px;
+  margin-bottom: 111px;
+  margin-left: 118px;
+  margin-right: 126px; */
+  margin:111px 126px 111px 118px;
+  
+}
+.referral-slider-dots{
+  margin: 111px 126px 111px 118px;
+    width: 29.18%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.referral-slider-dots>span{
+  margin-left: 3%;
+}
+.referral-slider-dots>span:nth-of-type(1)
+{
+margin-left: 0;
+}
+.referral-slider-dots>span::nth-of-type(6){
+  margin-right: 0;
+}
 
+.hr-slider-item p{
+  font-size: 32px;  
+  line-height: 50px;
+}
+.hr-slider-item p > span{
+  font-size: 53px;
+}
+.hr-slider-item{
+  color: #f2f5fc;
+}
+.hr-slider li:not( :nth-of-type(1))
+{
+  display: none;
+}
+.dot{
+height: 21px;
+width: 21px;
+background-color: #c5c7c6;
+border-radius: 50%;
+display: inline-block;
+}
 
+.white-dot{
+  background-color: white;
+}
+.but-text{
+  margin-bottom: 19px;
+  margin-top: 19px;
+  position: relative;
+  text-align: center;
+}
 
+.but-text:before {
+  content: "";
+  display: block;
+  width: 38.33%;
+  height: 2px;
+  background: white;
+  left: 0;
+  top: 50%;
+  position: absolute;
+}
+.but-text:after {
+  content: "";
+  display: block;
+  width: 38.33%;
+  height: 2px;
+  background:white;
+  right: 0;
+  top: 50%;
+  position: absolute;
+}
 
+.job-profile-right > a{
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  padding: 16px;
+  color:white;
 
-
-
+}
+.job-profile-right > a:last-child{
+  right: 0;
+}
+.applicants-icons{
+  margin-top: 16px;
+}
+.applicants-icons>i{
+  font-size: 48px;
+}
+.referral-applicants-icons{
+  margin-top:13px;
+}
+.referral-applicants-icons>i{
+  font-size: 48px;
+}
 /*=================================
   main styling ends here
 =================================*/
