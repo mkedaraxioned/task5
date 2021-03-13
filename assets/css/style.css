@@ -350,7 +350,8 @@ display: inline-block;
 
 }
 .how-we-work{
-  margin-left: 5.34%;
+  /* margin-left: 5.34%; */
+  margin-left: 3.82%;
   margin-right: 9.1%;
   margin-bottom: 66px;
   display: flex;
@@ -370,18 +371,21 @@ display: inline-block;
     transform: translate(-50%, -50%);
 }
 .how-we-work-item{
-  flex-basis:28.42%;
+  /* flex-basis:28.42%; */
+  flex-basis: 27%;
 }
 .how-we-work-item > h4{
   margin-top: 34px;
   margin-bottom: 25px;
   font-size: 36px;
   color: #747474;
+  text-align: center;
   
 }
 .how-we-work-item > p{
   font-size: 29px;
   color: #a2a2a2;
+  text-align: center;
 }
 .testimonials-section{
   background-color: #6069d0;
@@ -412,10 +416,10 @@ display: inline-block;
     font-size: 27px;
    }
    .testimonials-item > p{
+     width: 85.16%;
+     margin: 0 auto;
      color:#f8fbfd;
      text-align: center;
-    width: 85.16%;
-    margin: 0 auto;
    }
    .testimonials-item:not(:first-of-type){
      display: none;
@@ -428,17 +432,20 @@ display: inline-block;
    .search-ico,
    .calendar-ico,
    .comments-ico{
+     width: 129px;
+     height: 129px;
+     border-radius: 50%;
+     position: relative;
     display: inline-block;
     background: #6069ce;
-    width: 129px;
-    height: 129px;
+    left: 50%;
+    transform: translateX(-50%);
+
     /* text-align: center; */
     /* vertical-align: middle; */
-    border-radius: 50%;
     /* margin: 0 auto; */
     /* top: 50%; */
-    position: relative;
-   }
+  }
 /*=================================
   main styling ends here
 =================================*/
@@ -489,12 +496,15 @@ letter-spacing: -2px;
 .how-we-work-item > p {
   font-size: 18px;
   color: #a2a2a2;
+  text-align :center;
 }
 .how-we-work-item > h4 {
   margin-top: 20px;
   font-size: 27px;
   color: #747474;
   margin-bottom: 20px;
+  text-align :center;
+
 }
 
 .insider-profile {
