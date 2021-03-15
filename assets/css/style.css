@@ -530,3 +530,67 @@ letter-spacing: -2px;
   font-size: 26px;
 }
 }  
+
+@media only screen and (min-width:768px) and (max-width:995px)
+{
+  .apply-btn, .connect-btn {
+
+    letter-spacing: 0;
+    margin-top: 20px;
+}
+
+  .how-we-work {
+    flex-wrap: wrap;
+}
+
+.how-we-work-item {
+  /* flex-basis: 28.42%; */
+  margin-bottom: 50px;
+  flex-basis: 46.52%;
+}
+
+.job-profile-left {
+  flex-basis: 60%;
+
+}
+
+.job-profile-right {
+  flex-basis: 40%;
+}
+
+.insiders-info {
+  flex-wrap: wrap;
+}
+
+.insider-profile {
+  letter-spacing: 0px;
+}
+.insider-name {
+  font-size: 22px;
+  letter-spacing: 0;
+}
+}
+
+
+
+@media only screen and (max-width: 321px) {
+
+  .job-profile-left {
+    flex-basis: 95.5%;
+  
+  }
+  
+  .job-profile-right {
+    flex-basis: 95.5%;
+  }
+  .how-we-work {
+    flex-wrap: wrap;
+}
+
+.how-we-work-item {
+  /* flex-basis: 28.42%; */
+  margin-bottom: 50px;
+  flex-basis: 95.5%;
+}
+
+}
