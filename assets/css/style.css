@@ -569,12 +569,46 @@ letter-spacing: -2px;
   font-size: 22px;
   letter-spacing: 0;
 }
+
+.dot {
+  height: 7px;
+  width: 7px;
+}
+
+.job-review {
+  font-size: 30px;
+}
+
+.hr-slider-item p {
+  font-size: 25px;
+  letter-spacing: 0;
+}
+
+.job-desc {
+  font-size: 24px;
+}
+
+.apply-btn, .connect-btn {
+  letter-spacing: 0;
+  margin-right: 20px;
+}
+
+.applicants-icons>i {
+  font-size: 22px;
+}
+
+.referral-applicants-icons>i {
+  font-size: 23px;
+}
 }
 
 
 
 @media only screen and (max-width: 321px) {
 
+  .job-profile-section>div {
+    flex-wrap: wrap;
+}
   .job-profile-left {
     flex-basis: 95.5%;
   
@@ -591,6 +625,47 @@ letter-spacing: -2px;
   /* flex-basis: 28.42%; */
   margin-bottom: 50px;
   flex-basis: 95.5%;
+}
+.job-profile-section>div {
+  flex-wrap: wrap;
+}
+
+.apply-btn, .connect-btn {
+  padding: 13px 14px;
+  font-size: 19px;
+  letter-spacing: 0;
+  margin-bottom: 25px;
+}
+
+.referral-applicants-icons>i {
+  font-size: 22px;
+}
+.applicants-icons>i {
+  font-size: 22px;
+}
+
+.dot {
+  height: 7px;
+  width: 7px;
+}
+
+.insiders-info {
+  margin-left: 2%;
+  margin-right: 2%;
+  flex-wrap: wrap;
+}
+
+.insiders-info-item {
+  flex-basis: 95.5%;
+}
+.brand-name > a
+{
+width: 94%;
+}
+
+.brand-name > a >img{
+width: 94%;
+    padding: 0 3%;
 }
 
 }
